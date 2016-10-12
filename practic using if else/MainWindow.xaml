@@ -1,0 +1,19 @@
+﻿<Window x:Class="practic_using_if_else.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="150" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="changeText" Content="Button" HorizontalAlignment="Left" Margin="109,26,0,0" VerticalAlignment="Top" Width="75"/>
+        <CheckBox x:Name="enableCheckbox" Content="CheckBox" Grid.Column="1" HorizontalAlignment="Left" Margin="98.8,26,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="labelToChange" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="259,34,0,-117.2" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
