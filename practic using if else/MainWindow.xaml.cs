@@ -24,5 +24,27 @@ namespace practic_using_if_else
         {
             InitializeComponent();
         }
+
+        private void changeText_Click(object sender, RoutedEventArgs e)
+        {
+            if (enableCheckbox.IsChecked == true)
+            {
+                if (labelToChange.Text == "Left")
+                {
+                    labelToChange.Text = "Right";
+                    labelToChange.HorizontalAlignment = HorizontalAlignment.Right;
+                }
+                else
+                {
+                    labelToChange.Text = "Left";
+                    labelToChange.HorizontalAlignment = HorizontalAlignment.Left;
+                }
+            }
+            else
+            {
+                labelToChange.Text = "Text changing is disable";
+                labelToChange.HorizontalAlignment = HorizontalAlignment.Center;
+            }
+        }
     }
 }

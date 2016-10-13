@@ -11,9 +11,9 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="changeText" Content="Button" HorizontalAlignment="Left" Margin="109,26,0,0" VerticalAlignment="Top" Width="75"/>
-        <CheckBox x:Name="enableCheckbox" Content="CheckBox" Grid.Column="1" HorizontalAlignment="Left" Margin="98.8,26,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="labelToChange" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="259,34,0,-117.2" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button x:Name="changeText" Content="Change the label if chacked" HorizontalAlignment="Center" Margin="55,26,0,0" VerticalAlignment="Center" Click="changeText_Click"/>
+        <CheckBox x:Name="enableCheckbox" Content="Enable label changing" Grid.Column="1" HorizontalAlignment="Center" Margin="98.8,26,0,0" VerticalAlignment="Center" />
+        <TextBlock x:Name="labelToChange" HorizontalAlignment="Center" Margin="0,30,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Press button to set my text" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
